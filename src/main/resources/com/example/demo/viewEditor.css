@@ -1,0 +1,26 @@
+.button {
+    -fx-background-color: #6E6F6E;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+}
+
+
+.text-field {
+    -fx-background-color: #B9B9B9;
+    -fx-text-fill: black;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+
+.table-view .column-header {
+    -fx-background-color: #e7e7e7;
+    -fx-text-fill: black;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill:black;
+}

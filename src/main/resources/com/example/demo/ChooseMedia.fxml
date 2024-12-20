@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections ?>
+
+<?import javafx.scene.image.ImageView?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ChooseMediaController" spacing="10" alignment="CENTER" style="-fx-padding: 20;" fillWidth="true">
+
+    <Label text="Бажаєте глянути фото?:" style="-fx-font-size: 18px;"/>
+
+    <ChoiceBox fx:id="choiceBox">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:value="Так"/>
+                <String fx:value="Ні"/>
+            </FXCollections>
+        </items>
+    </ChoiceBox>
+
+    <ImageView fx:id="imageView" fitWidth="300" fitHeight="200" visible="false"/>
+
+    <VBox fx:id="vbox"/>
+
+</VBox>
